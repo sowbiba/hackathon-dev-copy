@@ -87,7 +87,7 @@ class MyMatrix
         $columnTreated = [];
         for($i=0; $i<$this->iMax; $i++) {
             for($j=0; $j<$this->jMax; $j++) {
-                if (0 === $this->matrix[$i][$j]) {
+                if (0 == $this->matrix[$i][$j]) {
                     if(!in_array($i, $lineTreated) && !in_array($j, $columnTreated)) {
                         $lineTreated[] = $i;
                         $columnTreated[] = $j;
