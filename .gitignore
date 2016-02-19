@@ -1,0 +1,43 @@
+################
+## Symfony
+################
+
+# Bootstrap
+app/bootstrap*
+
+# phpunit
+app/phpunit.xml
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads
+web/data
+web/bundles
+web/legacy
+web/css
+web/js
+web/styles
+web/javascripts
+web/import
+web/assetic
+# .htaccess file (created when deploying the project)
+web/.htaccess
+
+
+# Configuration files
+app/config/parameters.yml
+app/config/databases.yml
+app/config/behat.yml
+fabric.ini
+
+#############
+## Vendors
+#############
+
+vendor/*
+
+deploy_const.sh
+
+*/public/javascripts/*.html
